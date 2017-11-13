@@ -1,9 +1,18 @@
+body{
+    background-color: #fafafa;
+}
+
+
 #navbar{
-	position: fixed;
+    position: fixed;
 	top: 0;
 	right: 0;
 	font-family: arial, sans-serif;
-	
+    font-size: 13px;
+}
+
+#navbar a:link{
+    text-decoration: none;
 }
 
 #logo{
