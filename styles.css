@@ -1,5 +1,5 @@
 body {
-    background-color: #fafafa;
+    background-color: #fff;
 }
 
 a {
@@ -25,7 +25,6 @@ a:hover {
 	height: 50px;
 	top: 0;
 	right: 0;
-	ackground-color: yellow;
 	
 }
 
@@ -52,7 +51,6 @@ a:hover {
 	height: 300px;
 	top: 50%;
 	margin-top: -300px;
-	ackground-color: yellow;
 	left: 50%;
 	margin-left: -400px;
 }
@@ -74,9 +72,7 @@ a:hover {
 #search-buttons {
 	position: relative;
 	top: 2px;
-	ackground-color: green;
 	height: 40px;
-	margin: 10px;
 }
 
 .buttons {
@@ -97,21 +93,54 @@ a:hover {
 	color: #757575;
 }
 
-.twobuttons { 
-	position: absolute; 
-	width: 140px; 
-	height: 40px; 
-	background-color: #f2f2f2; 
-	top: 250px; 
-	text-align: center;
-} 
-
-.twobuttons p { 
-	font-family: sans-serif; 
-	font-weight: bold; 
-	color: gray; 
-	margin-top: 13px; 
-	font-size: 14px; 
+.footbarloc {
+    position: absolute;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 30px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    bottom: 35px;
+    border-bottom: 5px;
+    border-bottom-color: black;
+    padding-bottom: 5px;
+    
 }
+
+.footbarloc p {
+    color: grey;
+}
+
+.footbarlinks {
+    position: absolute;
+    background-color: #f2f2f2;
+    width: 100%;
+    height: 30px;
+    font-family: arial, sans-serif;
+    font-size: 14px;
+    bottom: 0;
+}
+
+#linksleft ul {
+    list-style-type: none;
+    float: left;
+    margin: 0;
+    padding: 0;
+}
+
+#linksright ul {
+    list-style-type: none;
+    float: right;
+    margin: 0;
+    padding: 0;
+}
+
+li {
+    display: inline;
+    color: grey;
+    padding: 10px;
+}
+
+
 
 
